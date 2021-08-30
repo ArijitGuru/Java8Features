@@ -13,6 +13,11 @@ public class OptionalExample {
 
         //Avoid NPE
         Optional<String> opCity = Optional.ofNullable(personB.getCity());
+        // 3 ways to create Optional container object
+        //.of
+        //.empty()
+        //.ofNullable()
+        System.out.println(opCity.isPresent());
         System.out.println(opCity.orElse("Default value"));
 
         //Throw Exception
