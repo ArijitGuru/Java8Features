@@ -7,7 +7,8 @@ public class NoFinalConstructor {
     }
 
     // We cannot make a constructor final. But why?
-    public final NoFinalConstructor(String var){
+    // Ans: constructors cannot be inherited in Java therefore you cannot override constructors
+    public /*final*/ NoFinalConstructor(String var){
         System.out.println(" Constructor overloaded: " + var);
     }
 

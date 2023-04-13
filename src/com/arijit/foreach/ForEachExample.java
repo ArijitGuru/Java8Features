@@ -1,4 +1,4 @@
-package com.arijit.forEach;
+package com.arijit.foreach;
 
 import java.util.ArrayList;
 import java.util.List;
